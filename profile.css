@@ -36,6 +36,7 @@ header{
     list-style: none;
     display: inline-flex;
     text-align: center;
+
 }
 .links li{
     font-size: 20px;
@@ -43,11 +44,12 @@ header{
 }
 .links a{
     text-decoration: none;
+    color: #fc15ff;
 
 }
 .links a:hover{
     cursor: pointer;
-    color: #fc15ff;
+    color: blue;
 }
 .main{
 
@@ -79,18 +81,21 @@ header{
 .project{
     border: 1px solid #bbbbbb;
     width: 48%;
-    height: 780px;
+    height: 600px;
     position: relative;
     padding: 60px;
     box-sizing: border-box;
     margin-left: 2%;
     display: inline-block;
     float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .p1 h3{
     font-size: 20px;
     margin-left: -50px;
     float: left;
+    color: blue;
 }
 .p1 p{
     float: left;
@@ -98,6 +103,40 @@ header{
     margin-left: -50px;
     font-size: 20px;
     padding: 0px;
+    margin-top: 5px;
+}
+.link{
+    font-size: 20px;
+    margin-left: -50px;
+    float: left;
+}
+.link a{
+    text-decoration: none;
+    margin: 10px;
+    color: #fc15ff;
+    text-align: center;
+    margin-left: 10px;
+
+}
+.link a:hover{
+    cursor: pointer;
+    color: blue;
+}
+.link2 {
+    font-size: 20px;
+    margin-left: -50px;
+    float: left;
+}
+.link2 a{
+    text-decoration: none;
+    float: left;
+    margin: 10px;
+    color: #fc15ff;
+    margin-top: 160px;
+}
+.link2 a:hover{
+    cursor: pointer;
+    color: blue;
 }
 .green {
     background-color: #c0ff33;
