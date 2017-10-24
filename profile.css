@@ -15,14 +15,18 @@ body {
 }
 .content {
     padding: 10px 0;
-    margin-top: 10px;
     width: 70%;
     margin: 0 auto;
 
-
+}
+.first_header{
+    float: left;
+    text-shadow: 1px 1px 3px #1aafa3;
+    margin-left: 2px;
 }
 header{
     height: 100px;
+
 }
 .links{
     position: absolute;
@@ -36,7 +40,7 @@ header{
 }
 .links li{
     font-size: 20px;
-    padding: 14px;
+    padding: 10px;
 }
 .links a{
     text-decoration: none;
@@ -46,14 +50,40 @@ header{
     cursor: pointer;
     color: #fc15ff;
 }
+.main{
+
+}
 #resume{
     text-align: center;
 
 }
-#resume a:hover{
+#resume a{
     text-decoration: none;
-    cursor: pointer;
 }
+#resume a:hover{
+    cursor: pointer;
+    color: #fc15ff;
+
+}
+#project_section{
+    padding: 2%;
+    display: inline-block;
+}
+.project{
+    border: 1px solid #bbbbbb;
+    width: 48%;
+    height: 780px;
+    margin-top: 30px;
+    position: relative;
+    padding: 60px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 2%;
+    display: inline-block;
+    float: left;
+}
+
+
 .green {
     background-color: #c0ff33;
 }
